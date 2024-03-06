@@ -7,7 +7,7 @@ giovana.
 elena.
 
 programacion.
-redes.
+redes2.
 inteligenciaartificial.
 
 esHombre(mario).
