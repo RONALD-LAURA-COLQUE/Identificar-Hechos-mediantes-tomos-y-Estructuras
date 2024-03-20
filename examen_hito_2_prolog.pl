@@ -21,15 +21,15 @@ producto(samsung_l200, negro, caro, bueno).
 producto(bose, blanco, caro, negro).
 producto(xbox_360, verde, barato, malo).
 producto(xbox_one, verde, caro, bueno).
-producto(play_station, negro, _, _).
-producto(laptop_dell, _, _, _).
-producto(laptop_hp, _, _, _).
-producto(escritorio, _, _, _).
+producto(play_station, ps2, negro, barato, bueno).
+producto(laptop_dell, omen560, plateado, barato, malo).
+producto(laptop_hp, pavilion15a, plateado, caro, bueno).
+producto(escritorio, marca_patito, destruinator500, plateado, barato, bueno).
 
 cliente(maria, blanco, barato, entretenimiento).
 cliente(juana, negro, caro, entretenimiento).
-cliente( _, plateado, bueno, computadoras).
-cliente(jeremias, _, _, electrodomestico).
+cliente(juana, plateado, bueno, computadoras).
+cliente(jeremias, bueno, caro, electrodomestico).
 
 recomendacion(Cliente, Producto) :-
     cliente(Cliente, Color, Gusto, Categoria).
